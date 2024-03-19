@@ -1,0 +1,491 @@
+/* 
+utiliser l'attribut select de html pour le sexe du patient
+
+
+
+
+*/
+
+
+
+
+
+body{
+    font-family: Archivo,sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0;
+    color: #666;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+}
+.AA{
+    background-color:#14B2D1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+}
+                               /* nav css*/
+.header{
+    margin: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a {
+    color: white;
+    letter-spacing: 0.1rem;
+}
+ul li a:hover{
+     color: #0a0808;
+     text-decoration: underline;
+}
+.AB li{
+float: left;
+padding: 35px;
+}
+.AB li a{
+    text-decoration: none;
+}
+span{
+    padding: 50px;
+    text-align: left;
+    padding-top: 20px;
+}
+input[type="search"]{
+    font-size: 20px;
+}
+                   /* fin nav css*/
+
+                   /* css premier partie */
+ .AC{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 40px;
+    margin-top: 180px;
+    padding: 30px;
+ }   
+ .AE{
+    text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+    background-color:#14B2D1;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px ;
+    border-radius: 20px;
+    margin-left: 20px;
+
+ } 
+ .AE a{
+    color: white;
+    text-decoration: none;
+ }   
+ .AE a:hover{
+    color: #0e0b0b;
+ } 
+ .AF{
+    text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    width: 0;
+    width: 100%;
+    background-color:#14B2D1;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px; 
+    border-radius: 20px;
+ } 
+ .AF a{
+    color: white;
+    text-decoration: none;
+ } 
+ .AF a:hover{
+    color: black;
+ } 
+ .AG{
+    text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    width: 0;
+    width: 100%;
+    background-color:#14B2D1;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    position: relative;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+ } 
+ .AG a{
+    color: white;
+    text-decoration: none;
+ } 
+ .AG a:hover{
+    color: #0c0707;
+ } 
+
+ .Rend{
+   text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    width: 0;
+    width: 10%;
+    background-color:#14B2D1;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+    position: relative;
+    width: 10%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+ }
+
+ .Rend a{
+   color: white;
+    text-decoration: none;
+ }
+
+ .Rend a:hover{
+   color: #0c0707;
+}
+                   /* Css deuxieme partie*/
+ .AH{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 90px;
+   font-weight:bold; 
+   font-family: 'Archivo', sans-serif; 
+   font-family: 'Roboto', sans-serif; 
+   font-family: 'Work Sans', sans-serif;
+   color:black;
+ }   
+ .AI{
+   background: url();
+   padding: 10px;
+   margin: 50px;
+   height: 5x;
+   margin-top: 50px;
+ } 
+ .AJ{
+   display: flex;
+ }
+ .AK{
+   display: inline-block;
+ }
+ .AL{
+   display: flex;
+   gap: 50px;
+   margin: 50px;
+ }
+ .AM{
+   display: flex;
+ }
+ .AN{
+   display: flex;
+   gap: 10px;
+ }
+.AP::after{
+   position: absolute;
+    content: '';
+    height: 300px;
+    width: 300px;
+    background: #14B2D1;
+    left: 830px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.AP::before{
+   position: absolute;
+    content: '';
+    height: 90px;
+    width: 90px;
+    background: black;
+    margin-left: 330px;
+    margin-top: 220px;
+    left: auto;
+    border-radius: 50%;
+
+}
+                         /* footer css*/
+.AQ{
+   background-color:#14B2D1 ;
+   height: 100px;
+   color: black;
+   margin-top: 200px;
+}
+.AR{
+   display: flex;
+}
+.AS{
+   margin-left: 90px; 
+   margin-top: 30px; 
+   font-family: 'Archivo', sans-serif; 
+   font-family: 'Roboto', sans-serif; 
+   font-family: 'Work Sans', sans-serif; 
+   font-weight: 500;
+}
+.AT{
+   margin-left: 70px; 
+   margin-top: 46px;
+   font-family: 'Archivo', sans-serif; 
+   font-family: 'Roboto', sans-serif; 
+   font-family: 'Work Sans', sans-serif; 
+   font-weight: 500;
+}
+              /* Formulaire d'inscription Css*/
+
+.Anumber{
+   text-align: center;
+   margin-left: 30px;
+}
+.Anumero{
+   display: inline-block;
+   padding-right: 200px;
+}
+.Atelephone{
+   margin-top: 50px;
+}
+.Anom{
+   display: flex;
+   gap: 30px;
+   margin-left: 30px;
+}
+.Aemail{
+   font-size: 20px;
+}
+.Aglycemie{
+   display: inline-block;
+   margin-left: 500px;
+   padding-right: 10px;
+   margin-left: 100px;
+}
+.Acholesterol{
+display: flex;
+gap: 30px;
+padding-left: 50px;
+color: black;
+}
+.Acardiaque{
+   text-align: center;
+   color: black;
+}
+.Avalider{
+   text-align: center;
+   display: flex;
+   gap: 50px;
+   margin-left: 200px;
+   margin-top: 30px;
+}
+.Ah1::before{
+   position: absolute;
+   content: '';
+   height: 10px;
+   width: 300px;
+   background: #14B2D1;
+   margin-top: 60px;
+   margin-left: 40px;
+   border-radius: 50%;
+}
+.Amas{
+   text-align: center;
+   display: inline-block;
+   margin-top: 20px;
+   margin-left: 180px;
+   color: black;
+}
+.Bmas{
+   display: flex;
+   gap: 90px;
+}
+                      /* Rendez-vous Css*/
+.Bnom{
+   text-align: center;
+   background-color: #14B2D1;
+   width: 45%;
+   margin-left: 400px;
+   margin-top: 40px;
+}   
+.Bprenom{
+   display: flex;
+   gap: 52px;
+   margin-left: 20px;
+}  
+#Nom{
+   font-size: 25px;
+}  
+.Braison{
+   margin-right: 10px;
+   margin-top: 20px;
+}  
+.Bh1{
+text-align: center;
+font-size: 60px;
+color: black;
+margin-top: 100px;
+margin-right: 40px;
+} 
+.Bh1::before{
+   position: absolute;
+   content: '';
+   height: 10px;
+   width: 400px;
+   background: #14B2D1;
+   margin-top: 100px;
+   margin-left: 90px;
+   border-radius: 50%;
+}
+     
+
+/* css formulaire resultat*/
+
+.Acholesterol1{
+   text-align: center;
+   display: inline-block;
+   justify-content: center;
+   margin-left: 120px;
+color: black;
+}
+
+.Acholesterol12{
+   text-align: center;
+   display: inline-block;
+   justify-content: center;
+   margin-left: 90px;
+color: black;
+}
+.Acholesterol3{
+   text-align: center;
+   display: inline-block;
+   justify-content: center;
+   margin-left: 70px;
+color: black;
+}
+.Acholesterol4{
+   text-align: center;
+   display: inline-block;
+   justify-content: center;
+   margin-left: 140px;
+color: black;
+}
+.Acholesterol5{
+   text-align: center;
+   display: inline-block;
+   justify-content: center;
+   margin-left: 65px;
+color: black;
+}
+.Acholesterol6{
+   text-align: center;
+   display: inline-block;
+   justify-content: center;
+   margin-left: 140px;
+color: black;
+}
+.Ah11::before{
+   position: absolute;
+   content: '';
+   height: 10px;
+   width: 250px;
+   background: #14B2D1;
+   margin-top: 60px;
+   margin-left: 10px;
+   border-radius: 50%;
+}
+.CA{
+   display: flex;
+   gap: 50px;
+   margin-left: 110px;
+}
+.CC{
+   display: flex;
+   gap: 50px;
+   margin-left:200px;
+   margin-top: 50px;
+}
+.CD{
+   display: flex;
+   margin-top: 100px;
+   gap: 50px;
+   margin-left: 250px;
+}
+
+/*Css java script*/
+
+.carousel {
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+align-items: center;
+margin-top: 30px;   
+
+ }
+ 
+ .carousel-images {
+   display: flex;
+   transition: transform 0.5s ease;
+ }
+ 
+ .carousel-images img {
+   width: 2000px;
+   height: 600px;
+ }
+ 
+ button {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   padding: 10px 20px;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ #prevBtn {
+   left: 10px;
+ }
+ 
+ #nextBtn {
+   right: 10px;
+ }
+ 
+ 
+ .pagination {
+   position: absolute;
+   bottom: 10px;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+ 
+ .dot {
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   background-color: #bbb;
+   border-radius: 50%;
+   margin: 0 5px;
+   cursor: pointer;
+ }
+ 
+ .dot.active {
+   background-color: #333;
+ }
+ 
